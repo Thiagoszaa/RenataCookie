@@ -105,3 +105,19 @@ st.markdown(
     </div>
     """, unsafe_allow_html=True
 )
+st.markdown(
+    """
+    <style>
+        /* Se o ícone do GitHub é um link com uma classe específica */
+        .github-icon {
+            display: none;
+        }
+        
+        /* Se o ícone do GitHub é um link específico */
+        a[href*="github.com"] {
+            display: none;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
